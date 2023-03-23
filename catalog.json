@@ -1,0 +1,30 @@
+{
+  "type": "Catalog",
+  "id": "Catalog",
+  "stac_version": "1.0.0",
+  "description": "Tutorial catalog",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./catalog/collection.json",
+      "type": "application/json",
+      "title": "Metadata For Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./catalog/E06SCTL4BH/E06SCTL4BH.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./catalog/E06SCTL4BH/E06SCTL4BH.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": []
+}

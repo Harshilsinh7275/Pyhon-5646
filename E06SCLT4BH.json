@@ -1,0 +1,72 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "E06SCTL4BH",
+  "properties": {
+    "datetime": "2023-01-22T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          64.01,
+          5.990000000000002
+        ],
+        [
+          64.01,
+          39.99
+        ],
+        [
+          100.01,
+          39.99
+        ],
+        [
+          100.01,
+          5.990000000000002
+        ],
+        [
+          64.01,
+          5.990000000000002
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Metadata For Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Metadata For Catalog"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "/home/Trainee/harshil/data/E06SCTL4BH_2023021_2023022_DES_IN_02km_v1.0.0.tif",
+      "type": "image/tiff; application=geotiff"
+    },
+  "thumbnail": {
+      "href": "/home/Trainee/harshil/data/E06SCTL4BH_2023021_2023022_DES_IN_02km_v1.0.0.jpg",
+      "type": "image/png"
+    }
+  },
+  "bbox": [
+    64.01,
+    5.990000000000002,
+    100.01,
+    39.99
+  ],
+  "stac_extensions": [],
+  "collection": "catalog"
+}

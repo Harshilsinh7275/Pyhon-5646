@@ -1,0 +1,46 @@
+{
+  "type": "Collection",
+  "id": "catalog",
+  "stac_version": "1.0.0",
+  "description": "Collection For E06SCTL4BH",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E06SCTL4BH/E06SCTL4BH.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "title": "Metadata For Catalog",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-22T00:00:00Z",
+          "2023-01-21T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
